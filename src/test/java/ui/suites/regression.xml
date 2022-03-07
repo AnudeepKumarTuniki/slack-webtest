@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Slack Web Tests" parallel="none">
+    <listeners>
+        <listener class-name="com.slack.web.ui.listeners.TestListener"></listener>
+    </listeners>
+    <test name="SavedItemSearchTest">
+        <classes>
+            <class name="ui.tests.SavedItemsSearchTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
